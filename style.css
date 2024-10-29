@@ -1,0 +1,79 @@
+body{
+    background-color: #F0E7E7;
+}
+
+/*HEADER */
+div {
+    margin:10px;
+    text-align: center;
+}
+
+.head{
+    display: flex;
+    width: 100%;
+}
+
+.name, .make {
+    width: 30%;
+}
+.rubrics{
+    width:40%;
+    height:100%;
+    display: flex;
+}
+
+
+.portfolio, .reviews, .contact{
+    height:100%;
+    margin: auto;
+    display:flex;
+    text-align: left;
+}
+
+.zyrenkam{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.makeZ{
+    text-align: right;
+    margin-right: 20px;
+}
+
+.zyrLink{
+    text-decoration: none;
+    color:black;
+}
+
+
+/*Designed by Zyrenkam*/
+.designed{
+    display: flex;
+    width:100%;
+}
+.designedDes{
+    font-size: 140px;
+    text-align: left;
+    margin-left: 20px;
+}
+.designedBy{
+    font-size: 140px;
+    text-align: left;
+    margin-left: 20px;
+}
+.designedZyr{
+    font-size: 140px;
+    text-align: right;
+    margin-right: 20px;
+}
+.desBy{
+    width:45%;
+}
+.desZyr{
+    width:45%;
+    display: flex;
+    align-items: flex-end;
+}
+.desSpace{
+    width:10%;
+}
