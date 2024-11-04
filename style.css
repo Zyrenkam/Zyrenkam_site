@@ -1,83 +1,77 @@
 body{
     background-color: #F0E7E7;
 }
-
-.main{
-    
-}
-
-/*HEADER */
 div {
     margin:10px;
     text-align: center;
 }
+p{
+    font-size: 20px;
+}
 
+/*HEADER */
 .head{
     display: flex;
     width: 100%;
-    height: 10px;
+    height: 60px;
 }
-
-.name, .make {
+.headName, .headMake {
     width: 30%;
 }
-.rubrics{
+.headRubrics{
     width:40%;
     height:100%;
     display: flex;
 }
-
-
-.portfolio, .reviews, .contact{
+.headRubBut{
     height:100%;
     margin: auto;
     display:flex;
     text-align: left;
+    border-radius: 10px;
+    transition: 0.5s;
 }
-
+.headRubBut:hover{
+    outline: 3px solid #ffffff; /* Параметры рамки */
+}
 .zyrenkam{
     text-align: left;
     margin-left: 20px;
 }
-
-.makeZ{
+.headMakeOrder{
     text-align: right;
     margin-right: 20px;
 }
-
 .zyrLink{
     text-decoration: none;
     color:black;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
-
-/*Designed by Zyrenkam*/
+/*DESIGNED BY ZYRENKAM*/
 .designed{
     display: flex;
     width:100%;
-    height: 550px;
+    height: 500px;
 }
-.designedDes{
+.desByDes, .desByBy{
     font-size: 140px;
     text-align: left;
     margin-left: 20px;
+    margin-top:auto;
 }
-.designedBy{
-    font-size: 140px;
-    text-align: left;
-    margin-left: 20px;
-}
-.designedZyr{
+.desZyrText{
     font-size: 140px;
     text-align: right;
     margin-right: 20px;
-    margin-bottom: auto;
+    margin-bottom: 9%;
     height: 100%;
 }
 .desBy{
     width:45%;
     height: 200px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .desZyr{
     width:45%;
@@ -87,33 +81,91 @@ div {
 .desSpace{
     width:10%;
     text-align: left;
-    margin-top: 10%;
+    margin-top: 15px;
     margin-left: auto;
 }
-
 .desSpaceUp{height: 50%;}
 .desSpaceDown{height: 50%;}
 
-
-/*variants*/
+/*VARIANTS*/
 .variants{
     width:100%;
-    height: 20px;
+    height: 160px;
 }
-
-.varText{
+.varText, .varName{
     text-align: left;
     margin-left: 20px;
 }
-
 .varName{
-    text-align: left;
-    margin-left: 20px;
     display: flex;
 }
-
-.varNameL{
+.varNameText{
     width: 80px;
     border-radius: 20%;
     background-color: #c2bebe;
 }
+
+/*ABOUT*/
+.about{
+    width:80%;
+    background-color: rgb(215, 205, 205);
+    border-radius: 70px;
+}
+.aboutTitle{
+    font-size: 100px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 6%;
+    margin-bottom: 0px;
+}
+.aboutText{
+    display: flex;
+}
+.aboutTextTxt{
+    width:50%;
+    margin-top: auto;
+    margin-left: 65px;
+    text-align: left;
+}
+.aboutTextImg{
+    width:50%;
+    height: min-content;
+    margin-right: auto;
+}
+.aboutTextImgImg{
+    width:90%;
+    align: right;
+    text-align: right;
+    border-radius: 50px;
+}
+
+/*EXAMPLE*/
+.example{
+    width:80%;
+    background-color: rgb(215, 205, 205);
+    border-radius: 70px;
+    margin-right: auto;
+}
+.exampleText{
+    font-size: 100px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 6%;
+    margin-bottom: 0px;
+}
+.exampleBlock{
+    margin: auto;
+    display:flex;
+}
+.exampleBlockTextList{
+    text-align: left;
+    font-size: 20px;
+    line-height: 150%;
+}
+.exampleBlockImgImg{
+    width:90%;
+    align: right;
+    text-align: right;
+    border-radius: 50px;
+}
+/*помнеять шрифт сайта*/
