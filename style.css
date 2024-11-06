@@ -146,7 +146,7 @@ p{
     border-radius: 70px;
     margin-right: auto;
 }
-.exampleText{
+.exampleTitle{
     font-size: 100px;
     text-align: left;
     margin-left: 20px;
@@ -168,4 +168,108 @@ p{
     text-align: right;
     border-radius: 50px;
 }
+.exampleBlockText{
+    margin-left:65px;
+}
+
+
+/*REVIEW*/
+.review{
+    width:80%;
+    background-color: rgb(215, 205, 205);
+    border-radius: 70px;
+}
+.reviewTitle{
+    font-size: 100px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 6%;
+    margin-bottom: 0px;
+}
+.reviewBlock{
+    margin:auto;
+    display: flex;
+}
+.reviewBlockText{
+    width:50%;
+    margin-top: auto;
+    margin-left: 65px;
+    text-align: left;
+
+}
+.reviewBlockImg{
+    width:50%;
+    height: min-content;
+    margin-right: auto;
+}
+.reviewBlockImgImg{
+    width:75%;
+    border-radius: 50px;
+    margin-right: auto;
+}
+.reviewButtonBut{
+    border-radius: 20px;
+    border-style: outset;
+    background-color: white;
+    border-color: white;
+    width:160px;
+    height: 40px;
+
+    background-color: white;
+    transition: 0.5s;
+}
+
+.reviewButtonBut:hover{
+    background-color: black;
+    color:white;
+}
+
+
+
+/*FOOTER*/
+.footer{
+    width: 100%;
+    background-color: rgb(215, 205, 205);;
+    display:flex;
+    margin:auto;
+    height:220px;
+    
+}
+.footerLeft{
+    width:33%;
+    margin-top: 25px;
+}
+.footerCenter{
+    width:33%;
+    margin-top: 25px;
+}
+.footerRight{
+    width:33%;
+    margin-top: 25px;
+}
+
+.footerText{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    display: block;
+    line-height: 50px;
+}
+.footerRightBlock{
+    width:50%;
+    height:67%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footerRightTextList{
+    text-align: left;
+    font-size: 30px;
+    height:min-content;
+}
+
+
+
+
 /*помнеять шрифт сайта*/
