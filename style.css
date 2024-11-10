@@ -1,12 +1,16 @@
 body{
-    background-color: #F0E7E7;
+    background-color: rgb(227, 227, 227);
 }
 div {
     margin:10px;
     text-align: center;
 }
-p{
-    font-size: 20px;
+p, a{
+    font-size: 22px;
+    letter-spacing:0.7px;
+}
+li {
+    font-size: 25px;
 }
 
 /*HEADER */
@@ -102,14 +106,15 @@ p{
 .varNameText{
     width: 80px;
     border-radius: 20%;
-    background-color: #c2bebe;
+    background-color: white;
 }
 
 /*ABOUT*/
 .about{
     width:80%;
-    background-color: rgb(215, 205, 205);
-    border-radius: 70px;
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
 }
 .aboutTitle{
     font-size: 100px;
@@ -122,29 +127,32 @@ p{
     display: flex;
 }
 .aboutTextTxt{
-    width:50%;
+    width:40%;
     margin-top: auto;
     margin-left: 65px;
     text-align: left;
 }
 .aboutTextImg{
-    width:50%;
+    width:60%;
     height: min-content;
     margin-right: auto;
 }
 .aboutTextImgImg{
-    width:90%;
+    width:600px;
     align: right;
     text-align: right;
-    border-radius: 50px;
+    border-radius: 20px;
+    border-color: black;
+    border-style: outset;
 }
 
 /*EXAMPLE*/
 .example{
     width:80%;
-    background-color: rgb(215, 205, 205);
-    border-radius: 70px;
-    margin-right: auto;
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+   
 }
 .exampleTitle{
     font-size: 100px;
@@ -163,21 +171,27 @@ p{
     line-height: 150%;
 }
 .exampleBlockImgImg{
-    width:90%;
+    width:600px;
     align: right;
     text-align: right;
-    border-radius: 50px;
+    border-radius: 20px;
+    border-color: black;
+    border-style: outset;
 }
 .exampleBlockText{
     margin-left:65px;
+    width: 40%;
 }
-
+.exampleBlockImg{
+    width:60%;
+}
 
 /*REVIEW*/
 .review{
     width:80%;
-    background-color: rgb(215, 205, 205);
-    border-radius: 70px;
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
 }
 .reviewTitle{
     font-size: 100px;
@@ -191,49 +205,48 @@ p{
     display: flex;
 }
 .reviewBlockText{
-    width:50%;
+    width:40%;
     margin-top: auto;
     margin-left: 65px;
     text-align: left;
-
 }
 .reviewBlockImg{
-    width:50%;
+    width:60%;
     height: min-content;
     margin-right: auto;
 }
 .reviewBlockImgImg{
-    width:75%;
-    border-radius: 50px;
+    width:600px;
+    border-radius: 20px;
     margin-right: auto;
+    border-color: black;
+    border-style: outset;
 }
 .reviewButtonBut{
     border-radius: 20px;
     border-style: outset;
-    background-color: white;
-    border-color: white;
-    width:160px;
-    height: 40px;
-
+    background-color: black;
+    width:200px;
+    height:70px;
+    font-size: 20px;
     background-color: white;
     transition: 0.5s;
+    
+    border-color: rgb(44, 187, 44);
 }
-
 .reviewButtonBut:hover{
-    background-color: black;
+    background-color: rgb(44, 187, 44);;
     color:white;
 }
 
-
-
 /*FOOTER*/
 .footer{
-    width: 100%;
-    background-color: rgb(215, 205, 205);;
+    width: 70%;
+    background-color: white;
     display:flex;
     margin:auto;
     height:220px;
-    
+    border-radius: 20px;
 }
 .footerLeft{
     width:33%;
@@ -247,7 +260,6 @@ p{
     width:33%;
     margin-top: 25px;
 }
-
 .footerText{
     font-size: 30px;
     text-align: center;
@@ -262,14 +274,8 @@ p{
     margin-left: auto;
     margin-right: auto;
 }
-
 .footerRightTextList{
     text-align: left;
     font-size: 30px;
     height:min-content;
 }
-
-
-
-
-/*помнеять шрифт сайта*/
